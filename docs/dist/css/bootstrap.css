@@ -2549,6 +2549,51 @@ fieldset[disabled] a.btn {
   border-color: #d9534f;
 }
 
+.btn-uab {
+  color: #fff;
+  background-color: #006d47;
+  border-color: #006d47;
+}
+
+.btn-uab:hover {
+  color: #fff;
+  background-color: #003a26;
+  border-color: #00301f;
+}
+
+.btn-uab:focus, .btn-uab.focus {
+  color: #fff;
+  background-color: #003a26;
+  border-color: #00301f;
+}
+
+.btn-uab:active, .btn-uab.active,
+.open > .btn-uab.dropdown-toggle {
+  color: #fff;
+  background-color: #003a26;
+  background-image: none;
+  border-color: #00301f;
+}
+
+.btn-uab:active:hover, .btn-uab:active:focus, .btn-uab:active.focus, .btn-uab.active:hover, .btn-uab.active:focus, .btn-uab.active.focus,
+.open > .btn-uab.dropdown-toggle:hover,
+.open > .btn-uab.dropdown-toggle:focus,
+.open > .btn-uab.dropdown-toggle.focus {
+  color: #fff;
+  background-color: #00160f;
+  border-color: black;
+}
+
+.btn-uab.disabled:focus, .btn-uab.disabled.focus, .btn-uab:disabled:focus, .btn-uab:disabled.focus {
+  background-color: #006d47;
+  border-color: #006d47;
+}
+
+.btn-uab.disabled:hover, .btn-uab:disabled:hover {
+  background-color: #006d47;
+  border-color: #006d47;
+}
+
 .btn-primary-outline {
   color: #0275d8;
   background-color: transparent;
@@ -2715,6 +2760,34 @@ fieldset[disabled] a.btn {
 
 .btn-danger-outline.disabled:hover, .btn-danger-outline:disabled:hover {
   border-color: #eba5a3;
+}
+
+.btn-uab-outline {
+  color: #006d47;
+  background-color: transparent;
+  background-image: none;
+  border-color: #006d47;
+}
+
+.btn-uab-outline:focus, .btn-uab-outline.focus, .btn-uab-outline:active, .btn-uab-outline.active,
+.open > .btn-uab-outline.dropdown-toggle {
+  color: #fff;
+  background-color: #006d47;
+  border-color: #006d47;
+}
+
+.btn-uab-outline:hover {
+  color: #fff;
+  background-color: #006d47;
+  border-color: #006d47;
+}
+
+.btn-uab-outline.disabled:focus, .btn-uab-outline.disabled.focus, .btn-uab-outline:disabled:focus, .btn-uab-outline:disabled.focus {
+  border-color: #00d389;
+}
+
+.btn-uab-outline.disabled:hover, .btn-uab-outline:disabled:hover {
+  border-color: #00d389;
 }
 
 .btn-link {
@@ -4295,6 +4368,14 @@ a.label:focus, a.label:hover {
   background-color: #c9302c;
 }
 
+.label-uab {
+  background-color: #006d47;
+}
+
+.label-uab[href]:focus, .label-uab[href]:hover {
+  background-color: #003a26;
+}
+
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
@@ -4589,6 +4670,20 @@ a.label:focus, a.label:hover {
 @media screen and (min-width: 0\0) {
   .progress-danger .progress-bar {
     background-color: #d9534f;
+  }
+}
+
+.progress-uab[value]::-webkit-progress-value {
+  background-color: #006d47;
+}
+
+.progress-uab[value]::-moz-progress-bar {
+  background-color: #006d47;
+}
+
+@media screen and (min-width: 0\0) {
+  .progress-uab .progress-bar {
+    background-color: #006d47;
   }
 }
 
@@ -5862,6 +5957,15 @@ a.bg-warning:focus, a.bg-warning:hover {
 
 a.bg-danger:focus, a.bg-danger:hover {
   background-color: #c9302c;
+}
+
+.bg-uab {
+  color: #fff !important;
+  background-color: #006d47 !important;
+}
+
+a.bg-uab:focus, a.bg-uab:hover {
+  background-color: #003a26;
 }
 
 .m-x-auto {

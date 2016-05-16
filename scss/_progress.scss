@@ -154,3 +154,6 @@
 .progress-danger {
   @include progress-variant($progress-bar-danger-bg);
 }
+.progress-uab {
+  @include progress-variant($progress-bar-uab-bg);
+}

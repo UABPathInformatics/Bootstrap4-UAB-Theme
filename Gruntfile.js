@@ -238,7 +238,7 @@ module.exports = function (grunt) {
     // CSS build configuration
     scsslint: {
       options: {
-        bundleExec: true,
+        bundleExec: false,
         config: 'scss/.scss-lint.yml',
         reporterOutput: null
       },
