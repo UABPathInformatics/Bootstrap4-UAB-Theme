@@ -1,0 +1,74 @@
+//
+// Alternate buttons
+//
+
+.btn-uab {
+  @include button-variant($btn-uab-color, $btn-uab-bg, $btn-uab-border);
+}
+.btn-uab-green-1 {
+  @include button-variant($btn-uab-green-1-color, $btn-uab-green-1-bg, $btn-uab-green-1-border);
+}
+.btn-uab-green-2 {
+  @include button-variant($btn-uab-green-2-color, $btn-uab-green-2-bg, $btn-uab-green-2-border);
+}
+.btn-uab-green-3 {
+  @include button-variant($btn-uab-green-3-color, $btn-uab-green-3-bg, $btn-uab-green-3-border);
+}
+.btn-uab-gold-1 {
+  @include button-variant($btn-uab-gold-1-color, $btn-uab-gold-1-bg, $btn-uab-gold-1-border);
+}
+.btn-uab-gold-2 {
+  @include button-variant($btn-uab-gold-2-color, $btn-uab-gold-2-bg, $btn-uab-gold-2-border);
+}
+.btn-uab-beige {
+  @include button-variant($btn-uab-beige-color, $btn-uab-beige-bg, $btn-uab-beige-border);
+}
+.btn-uab-red {
+  @include button-variant($btn-uab-red-color, $btn-uab-red-bg, $btn-uab-red-border);
+}
+.btn-uab-brown {
+  @include button-variant($btn-uab-brown-color, $btn-uab-brown-bg, $btn-uab-brown-border);
+}
+.btn-uab-purple {
+  @include button-variant($btn-uab-purple-color, $btn-uab-purple-bg, $btn-uab-purple-border);
+}
+.btn-uab-blue {
+  @include button-variant($btn-uab-blue-color, $btn-uab-blue-bg, $btn-uab-blue-border);
+}
+
+
+// Remove all backgrounds
+
+.btn-uab-outline {
+  @include button-outline-variant($btn-uab-bg);
+}
+.btn-uab-green-1-outline {
+  @include button-outline-variant($btn-uab-green-1-bg);
+}
+.btn-uab-green-2-outline {
+  @include button-outline-variant($btn-uab-green-2-bg);
+}
+.btn-uab-green-3-outline {
+  @include button-outline-variant($btn-uab-green-3-bg);
+}
+.btn-uab-gold-1-outline {
+  @include button-outline-variant($btn-uab-gold-1-bg);
+}
+.btn-uab-gold-2-outline {
+  @include button-outline-variant($btn-uab-gold-2-bg);
+}
+.btn-uab-beige-outline {
+  @include button-outline-variant($btn-uab-beige-bg);
+}
+.btn-uab-red-outline {
+  @include button-outline-variant($btn-uab-red-bg);
+}
+.btn-uab-brown-outline {
+  @include button-outline-variant($btn-uab-brown-bg);
+}
+.btn-uab-purple-outline {
+  @include button-outline-variant($btn-uab-purple-bg);
+}
+.btn-uab-blue-outline {
+  @include button-outline-variant($btn-uab-blue-bg);
+}

@@ -1,0 +1,23 @@
+// Contextual colors
+
+@include text-emphasis-variant('.text-uab', $brand-uab);
+
+@include text-emphasis-variant('.text-uab-green-1', $brand-uab-green-1);
+
+@include text-emphasis-variant('.text-uab-green-2', $brand-uab-green-2);
+
+@include text-emphasis-variant('.text-uab-green-3', $brand-uab-green-3);
+
+@include text-emphasis-variant('.text-uab-gold-1', $brand-uab-gold-1);
+
+@include text-emphasis-variant('.text-uab-gold-2', $brand-uab-gold-2);
+
+@include text-emphasis-variant('.text-uab-beige', $brand-uab-beige);
+
+@include text-emphasis-variant('.text-uab-red', $brand-uab-red);
+
+@include text-emphasis-variant('.text-uab-brown', $brand-uab-brown);
+
+@include text-emphasis-variant('.text-uab-purple', $brand-uab-purple);
+
+@include text-emphasis-variant('.text-uab-blue', $brand-uab-blue);

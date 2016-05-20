@@ -1,0 +1,47 @@
+// Colors
+//
+// Contextual variations (linked labels get darker on :hover).
+
+.label-uab {
+  @include label-variant($label-uab-bg);
+}
+
+.label-uab-green-1 {
+  @include label-variant($label-uab-green-1-bg);
+}
+
+.label-uab-green-2 {
+  @include label-variant($label-uab-green-2-bg);
+}
+
+.label-uab-green-3 {
+  @include label-variant($label-uab-green-3-bg);
+}
+
+.label-uab-gold-1 {
+  @include label-variant($label-uab-gold-1-bg);
+}
+
+.label-uab-gold-2 {
+  @include label-variant($label-uab-gold-2-bg);
+}
+
+.label-uab-beige {
+  @include label-variant($label-uab-beige-bg);
+}
+
+.label-uab-red {
+  @include label-variant($label-uab-red-bg);
+}
+
+.label-uab-brown {
+  @include label-variant($label-uab-brown-bg);
+}
+
+.label-uab-purple {
+  @include label-variant($label-uab-purple-bg);
+}
+
+.label-uab-blue {
+  @include label-variant($label-uab-blue-bg);
+}

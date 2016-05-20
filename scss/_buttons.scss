@@ -74,9 +74,7 @@ fieldset[disabled] a.btn {
 .btn-danger {
   @include button-variant($btn-danger-color, $btn-danger-bg, $btn-danger-border);
 }
-.btn-uab {
-  @include button-variant($btn-uab-color, $btn-uab-bg, $btn-uab-border);
-}
+
 
 // Remove all backgrounds
 .btn-primary-outline {
@@ -96,9 +94,6 @@ fieldset[disabled] a.btn {
 }
 .btn-danger-outline {
   @include button-outline-variant($btn-danger-bg);
-}
-.btn-uab-outline {
-  @include button-outline-variant($btn-uab-bg);
 }
 
 
