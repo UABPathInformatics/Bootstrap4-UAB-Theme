@@ -1,0 +1,447 @@
+//White navbar option
+.navbar-white {
+  background-color: #fff;
+}
+
+// UAB Trims for navbar
+.navbar-uab-trim {
+  border-bottom: .5rem solid $brand-uab;
+}
+
+.navbar-uab-green-1-trim {
+  border-bottom: .5rem solid $brand-uab-green-1;
+}
+
+.navbar-uab-green-2-trim {
+  border-bottom: .5rem solid $brand-uab-green-2;
+}
+
+.navbar-uab-green-3-trim {
+  border-bottom: .5rem solid $brand-uab-green-3;
+}
+
+.navbar-uab-gold-1-trim {
+  border-bottom: .5rem solid $brand-uab-gold-1;
+}
+
+.navbar-uab-gold-2-trim {
+  border-bottom: .5rem solid $brand-uab-gold-2;
+}
+
+.navbar-uab-beige-trim {
+  border-bottom: .5rem solid $brand-uab-beige;
+}
+
+.navbar-uab-red-trim {
+  border-bottom: .5rem solid $brand-uab-red;
+}
+
+.navbar-uab-brown-trim {
+  border-bottom: .5rem solid $brand-uab-brown;
+}
+
+.navbar-uab-purple-trim {
+  border-bottom: .5rem solid $brand-uab-purple;
+}
+
+.navbar-uab-blue-trim {
+  border-bottom: .5rem solid $brand-uab-blue;
+}
+
+// Dark links against a white background
+.navbar-dark-links {
+  .navbar-brand {
+    color: $navbar-white-active-color;
+
+    @include hover-focus {
+      color: $navbar-white-active-color;
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $navbar-white-color;
+
+      @include hover-focus {
+        color: $navbar-white-hover-color;
+      }
+    }
+
+    .open > .nav-link,
+    .active > .nav-link,
+    .nav-link.open,
+    .nav-link.active {
+      @include plain-hover-focus {
+        color: $navbar-white-active-color;
+      }
+    }
+  }
+
+  .navbar-divider {
+    background-color: rgba(0,0,0,.075);
+  }
+}
+
+// Brand colored links
+.navbar-uab-links {
+  .navbar-brand {
+    color: $navbar-uab-links-active-color;
+
+    @include hover-focus {
+      color: $navbar-uab-links-active-color;
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $navbar-uab-links-color;
+
+      @include hover-focus {
+        color: $navbar-uab-links-hover-color;
+      }
+    }
+
+    .open > .nav-link,
+    .active > .nav-link,
+    .nav-link.open,
+    .nav-link.active {
+      @include plain-hover-focus {
+        color: $navbar-uab-links-active-color;
+      }
+    }
+  }
+
+  .navbar-divider {
+    background-color: rgba(0,0,0,.075);
+  }
+}
+
+.navbar-uab-green-1-links {
+  .navbar-brand {
+    color: $navbar-uab-green-1-links-active-color;
+
+    @include hover-focus {
+      color: $navbar-uab-green-1-links-active-color;
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $navbar-uab-green-1-links-color;
+
+      @include hover-focus {
+        color: $navbar-uab-green-1-links-hover-color;
+      }
+    }
+
+    .open > .nav-link,
+    .active > .nav-link,
+    .nav-link.open,
+    .nav-link.active {
+      @include plain-hover-focus {
+        color: $navbar-uab-green-1-links-active-color;
+      }
+    }
+  }
+
+  .navbar-divider {
+    background-color: rgba(0,0,0,.075);
+  }
+}
+
+.navbar-uab-green-2-links {
+  .navbar-brand {
+    color: $navbar-uab-green-2-links-active-color;
+
+    @include hover-focus {
+      color: $navbar-uab-green-2-links-active-color;
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $navbar-uab-green-2-links-color;
+
+      @include hover-focus {
+        color: $navbar-uab-green-2-links-hover-color;
+      }
+    }
+
+    .open > .nav-link,
+    .active > .nav-link,
+    .nav-link.open,
+    .nav-link.active {
+      @include plain-hover-focus {
+        color: $navbar-uab-green-2-links-active-color;
+      }
+    }
+  }
+
+  .navbar-divider {
+    background-color: rgba(0,0,0,.075);
+  }
+}
+
+.navbar-uab-green-3-links {
+  .navbar-brand {
+    color: $navbar-uab-green-3-links-active-color;
+
+    @include hover-focus {
+      color: $navbar-uab-green-3-links-active-color;
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $navbar-uab-green-3-links-color;
+
+      @include hover-focus {
+        color: $navbar-uab-green-3-links-hover-color;
+      }
+    }
+
+    .open > .nav-link,
+    .active > .nav-link,
+    .nav-link.open,
+    .nav-link.active {
+      @include plain-hover-focus {
+        color: $navbar-uab-green-3-links-active-color;
+      }
+    }
+  }
+
+  .navbar-divider {
+    background-color: rgba(0,0,0,.075);
+  }
+}
+
+.navbar-uab-gold-1-links {
+  .navbar-brand {
+    color: $navbar-uab-gold-1-links-active-color;
+
+    @include hover-focus {
+      color: $navbar-uab-gold-1-links-active-color;
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $navbar-uab-gold-1-links-color;
+
+      @include hover-focus {
+        color: $navbar-uab-gold-1-links-hover-color;
+      }
+    }
+
+    .open > .nav-link,
+    .active > .nav-link,
+    .nav-link.open,
+    .nav-link.active {
+      @include plain-hover-focus {
+        color: $navbar-uab-gold-1-links-active-color;
+      }
+    }
+  }
+
+  .navbar-divider {
+    background-color: rgba(0,0,0,.075);
+  }
+}
+
+.navbar-uab-gold-2-links {
+  .navbar-brand {
+    color: $navbar-uab-gold-2-links-active-color;
+
+    @include hover-focus {
+      color: $navbar-uab-gold-2-links-active-color;
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $navbar-uab-gold-2-links-color;
+
+      @include hover-focus {
+        color: $navbar-uab-gold-2-links-hover-color;
+      }
+    }
+
+    .open > .nav-link,
+    .active > .nav-link,
+    .nav-link.open,
+    .nav-link.active {
+      @include plain-hover-focus {
+        color: $navbar-uab-gold-2-links-active-color;
+      }
+    }
+  }
+
+  .navbar-divider {
+    background-color: rgba(0,0,0,.075);
+  }
+}
+
+.navbar-uab-beige-links {
+  .navbar-brand {
+    color: $navbar-uab-beige-links-active-color;
+
+    @include hover-focus {
+      color: $navbar-uab-beige-links-active-color;
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $navbar-uab-beige-links-color;
+
+      @include hover-focus {
+        color: $navbar-uab-beige-links-hover-color;
+      }
+    }
+
+    .open > .nav-link,
+    .active > .nav-link,
+    .nav-link.open,
+    .nav-link.active {
+      @include plain-hover-focus {
+        color: $navbar-uab-beige-links-active-color;
+      }
+    }
+  }
+
+  .navbar-divider {
+    background-color: rgba(0,0,0,.075);
+  }
+}
+
+.navbar-uab-red-links {
+  .navbar-brand {
+    color: $navbar-uab-red-links-active-color;
+
+    @include hover-focus {
+      color: $navbar-uab-red-links-active-color;
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $navbar-uab-red-links-color;
+
+      @include hover-focus {
+        color: $navbar-uab-red-links-hover-color;
+      }
+    }
+
+    .open > .nav-link,
+    .active > .nav-link,
+    .nav-link.open,
+    .nav-link.active {
+      @include plain-hover-focus {
+        color: $navbar-uab-red-links-active-color;
+      }
+    }
+  }
+
+  .navbar-divider {
+    background-color: rgba(0,0,0,.075);
+  }
+}
+
+.navbar-uab-brown-links {
+  .navbar-brand {
+    color: $navbar-uab-brown-links-active-color;
+
+    @include hover-focus {
+      color: $navbar-uab-brown-links-active-color;
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $navbar-uab-brown-links-color;
+
+      @include hover-focus {
+        color: $navbar-uab-brown-links-hover-color;
+      }
+    }
+
+    .open > .nav-link,
+    .active > .nav-link,
+    .nav-link.open,
+    .nav-link.active {
+      @include plain-hover-focus {
+        color: $navbar-uab-brown-links-active-color;
+      }
+    }
+  }
+
+  .navbar-divider {
+    background-color: rgba(0,0,0,.075);
+  }
+}
+
+.navbar-uab-purple-links {
+  .navbar-brand {
+    color: $navbar-uab-purple-links-active-color;
+
+    @include hover-focus {
+      color: $navbar-uab-purple-links-active-color;
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $navbar-uab-purple-links-color;
+
+      @include hover-focus {
+        color: $navbar-uab-purple-links-hover-color;
+      }
+    }
+
+    .open > .nav-link,
+    .active > .nav-link,
+    .nav-link.open,
+    .nav-link.active {
+      @include plain-hover-focus {
+        color: $navbar-uab-purple-links-active-color;
+      }
+    }
+  }
+
+  .navbar-divider {
+    background-color: rgba(0,0,0,.075);
+  }
+}
+
+.navbar-uab-blue-links {
+  .navbar-brand {
+    color: $navbar-uab-blue-links-active-color;
+
+    @include hover-focus {
+      color: $navbar-uab-blue-links-active-color;
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $navbar-uab-blue-links-color;
+
+      @include hover-focus {
+        color: $navbar-uab-blue-links-hover-color;
+      }
+    }
+
+    .open > .nav-link,
+    .active > .nav-link,
+    .nav-link.open,
+    .nav-link.active {
+      @include plain-hover-focus {
+        color: $navbar-uab-blue-links-active-color;
+      }
+    }
+  }
+
+  .navbar-divider {
+    background-color: rgba(0,0,0,.075);
+  }
+}
