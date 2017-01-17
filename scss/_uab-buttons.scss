@@ -2,11 +2,8 @@
 // Alternate buttons
 //
 
-.btn-uab {
+.btn-uab, .btn-uab-green {
   @include button-variant($btn-uab-color, $btn-uab-bg, $btn-uab-border);
-}
-.btn-uab-green-1 {
-  @include button-variant($btn-uab-green-1-color, $btn-uab-green-1-bg, $btn-uab-green-1-border);
 }
 .btn-uab-green-2 {
   @include button-variant($btn-uab-green-2-color, $btn-uab-green-2-bg, $btn-uab-green-2-border);
@@ -14,8 +11,8 @@
 .btn-uab-green-3 {
   @include button-variant($btn-uab-green-3-color, $btn-uab-green-3-bg, $btn-uab-green-3-border);
 }
-.btn-uab-gold-1 {
-  @include button-variant($btn-uab-gold-1-color, $btn-uab-gold-1-bg, $btn-uab-gold-1-border);
+.btn-uab-gold {
+  @include button-variant($btn-uab-gold-color, $btn-uab-gold-bg, $btn-uab-gold-border);
 }
 .btn-uab-gold-2 {
   @include button-variant($btn-uab-gold-2-color, $btn-uab-gold-2-bg, $btn-uab-gold-2-border);
@@ -36,14 +33,10 @@
   @include button-variant($btn-uab-blue-color, $btn-uab-blue-bg, $btn-uab-blue-border);
 }
 
-
 // Remove all backgrounds
 
-.btn-uab-outline {
+.btn-uab-outline, .btn-uab-green-outline {
   @include button-outline-variant($btn-uab-bg);
-}
-.btn-uab-green-1-outline {
-  @include button-outline-variant($btn-uab-green-1-bg);
 }
 .btn-uab-green-2-outline {
   @include button-outline-variant($btn-uab-green-2-bg);
@@ -51,8 +44,8 @@
 .btn-uab-green-3-outline {
   @include button-outline-variant($btn-uab-green-3-bg);
 }
-.btn-uab-gold-1-outline {
-  @include button-outline-variant($btn-uab-gold-1-bg);
+.btn-uab-gold-outline {
+  @include button-outline-variant($btn-uab-gold-bg);
 }
 .btn-uab-gold-2-outline {
   @include button-outline-variant($btn-uab-gold-2-bg);

@@ -1,0 +1,43 @@
+// Colors
+//
+// Contextual variations (linked badges get darker on :hover).
+
+.badge-uab, .badge-uab-green {
+  @include badge-variant($badge-uab-bg);
+}
+
+.badge-uab-green-2 {
+  @include badge-variant($badge-uab-green-2-bg);
+}
+
+.badge-uab-green-3 {
+  @include badge-variant($badge-uab-green-3-bg);
+}
+
+.badge-uab-gold {
+  @include badge-variant($badge-uab-gold-bg);
+}
+
+.badge-uab-gold-2 {
+  @include badge-variant($badge-uab-gold-2-bg);
+}
+
+.badge-uab-beige {
+  @include badge-variant($badge-uab-beige-bg);
+}
+
+.badge-uab-red {
+  @include badge-variant($badge-uab-red-bg);
+}
+
+.badge-uab-brown {
+  @include badge-variant($badge-uab-brown-bg);
+}
+
+.badge-uab-purple {
+  @include badge-variant($badge-uab-purple-bg);
+}
+
+.badge-uab-blue {
+  @include badge-variant($badge-uab-blue-bg);
+}
