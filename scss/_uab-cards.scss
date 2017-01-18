@@ -1,0 +1,67 @@
+//
+// Background variations
+//
+
+.card-uab, .card-uab-green {
+  @include card-variant($brand-uab, $brand-uab);
+}
+.card-uab-green-2 {
+  @include card-variant($brand-uab-green-2, $brand-uab-green-2);
+}
+.card-uab-green-3 {
+  @include card-variant($brand-uab-green-3, $brand-uab-green-3);
+}
+.card-uab-gold {
+  @include card-variant($brand-uab-gold, $brand-uab-gold);
+}
+.card-uab-gold-2 {
+  @include card-variant($brand-uab-gold-2, $brand-uab-gold-2);
+}
+.card-uab-beige {
+  @include card-variant($brand-uab-beige, $brand-uab-beige);
+}
+.card-uab-red {
+  @include card-variant($brand-uab-red, $brand-uab-red);
+}
+.card-uab-brown {
+  @include card-variant($brand-uab-brown, $brand-uab-brown);
+}
+.card-uab-purple {
+  @include card-variant($brand-uab-purple, $brand-uab-purple);
+}
+.card-uab-blue {
+  @include card-variant($brand-uab-blue, $brand-uab-blue);
+}
+
+
+// Remove all backgrounds
+.card-outline-uab, .card-outline-uab-green {
+  @include card-outline-variant($btn-uab-bg);
+}
+.card-outline-uab-green-2 {
+  @include card-outline-variant($btn-uab-green-2-bg);
+}
+.card-outline-uab-green-3 {
+  @include card-outline-variant($btn-uab-green-3-bg);
+}
+.card-outline-uab-gold {
+  @include card-outline-variant($btn-uab-gold-bg);
+}
+.card-outline-uab-gold-2 {
+  @include card-outline-variant($btn-uab-gold-2-bg);
+}
+.card-outline-uab-beige {
+  @include card-outline-variant($btn-uab-beige-bg);
+}
+.card-outline-uab-red {
+  @include card-outline-variant($btn-uab-red-bg);
+}
+.card-outline-uab-brown {
+  @include card-outline-variant($btn-uab-brown-bg);
+}
+.card-outline-uab-purple {
+  @include card-outline-variant($btn-uab-purple-bg);
+}
+.card-outline-uab-blue {
+  @include card-outline-variant($btn-uab-blue-bg);
+}
